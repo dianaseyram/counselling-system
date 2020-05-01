@@ -1,0 +1,97 @@
+.title{
+    padding: 70px 0px 5px 0px;
+    text-align: center;
+    color: goldenrod;
+}
+
+
+#mainImage{
+    background-image: url("../image/hero.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.main h2{
+    color: black;
+}
+.main p{
+    font-family:English;
+}
+
+#btn{
+    width: 30%;
+    border: 3px solid white;
+    margin-top: 50px;
+    
+}
+.text-div{
+    padding-top: 170px;
+}
+ul.grid{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+hr{
+	width: 150px;
+	height: 2px;
+	background-color: #2196F3;
+	border: 0;
+	margin-bottom: 80px;
+}
+/*-------------------
+services
+-------------------*/
+ h3{
+    text-align: center;
+    color: goldenrod;
+}
+
+
+.card img{
+    height: 250px;
+}
+.counselor img{
+    float: left;
+}
+/*----------------
+our counselor
+---------------*/
+.counselor p{
+    margin: 30px;
+}
+.subtitle{
+    text-align: center;
+    color: #666;
+}
+/*--------------
+about
+--------------*/
+.about img{
+    float: left;
+}
+.about p{
+    text-align: justify;
+    
+}
+.author {
+    float: right;
+    font: bolder;
+    font-weight: bolder;
+}
+/*-----------------
+footer
+------------------*/ 
+.foot{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	background-color:blue;
+	padding: 60px 0;
+}
+
